@@ -143,21 +143,28 @@ img {
  }
 
  @media screen and (max-width: 480px) {
+    .site-header {
+        max-width: 480px;
+    }
     .container {
         max-width: 480px;
-        margin: 0 auto;
+        padding: 0 0px;
     }
     .row {
-        width: 480px;
         flex-direction: column;
+    }
+    .why-us .col-left {
+        padding: 40px;
+        width: 100%;
         align-items: center;
     }
-    .col {
-        width: 480px;  
+    .card, ul{
+        width: 440px;
+        padding: 40px;
     }
-    
-    .why-us .container {
-        background-color: black;
-      
+
+    .why-us {
+        background-color: #222222;
     }
+  
  }
